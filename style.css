@@ -1,0 +1,208 @@
+/* Difalt */
+.clear-fix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.fix-with{
+    width: 1280px;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+/* Header */
+.hedar{
+    background-color: #384c33;
+}
+.hedar-left{
+    float: left;
+    width: 30%;
+    
+}
+.hedar-left h1 {
+    font-size: 30px;
+    color: rgba(255,255,255,.8);
+    font-weight: 400;
+    line-height: 50px;
+}
+.hedar-right{
+    float: right;
+    width: 70%;
+}
+.headar-menu-check{
+    opacity: 0;
+    visibility: hidden;
+}
+.hedar-right span{
+    display: none;
+}
+.hedar-right ul{
+    text-align: right;
+    margin: 0;
+}
+.hedar-right ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    
+}
+.hedar-right ul li a{
+    display: block;
+    padding: 0 20px;
+    color: rgba(255,255,255,.6);
+    font-weight: 700;
+    text-decoration: none;
+    transition: .5s;
+}
+.hedar-right ul li a:hover{
+    color: #7ea175;
+}
+/* slider */
+.slider{
+    background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+    padding: 190px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.slider h1{
+    color: rgb(235, 235, 235);
+    font-size: 55px;
+    font-weight: 600;
+}
+.slider h4{
+    color: rgba(255,255,255,.6);
+    margin: 50px 0;
+}
+.slider a{
+    padding: 8px 30px;
+    text-decoration: none;
+    background-color: rgba(255,255,255,.0);
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    z-index: 1;
+    position: relative;
+}
+.slider a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: -1;
+    transition: .5s;
+}
+.slider a:hover::before{
+    width: 100%;
+}
+/* About */
+.about{
+    margin: 60px 0;
+}
+.about h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #4d6d45;
+}
+/* Service item */
+.service{
+    padding: 20px 0;
+    margin-bottom: 60px;
+    
+}
+.service-item{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+
+}
+.service-item h3{
+    color: #3d5536;
+}
+.service-item span{
+    font-size: 40px;
+    color: #4d6d45;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+/* about us */
+.about-us h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #4d6d45;
+    margin-top: 60px;
+}
+.about-us{
+    border-top: 2px solid #384c33;
+    margin: 60px 0;
+}
+.blog{
+    margin-bottom: 80px;
+}
+.blog-img {
+    float: left;
+    width: 40%;
+}
+.blog-img img {
+    
+    height: 338px;
+    width: 100%;
+    padding: 0 20px;
+}
+.blog-notis {
+    float: left;
+    width: 60%;
+}
+.blog-notis h5{
+    color: #4d6d45;
+}
+/* Contact section */
+.contact{
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #4d6d45;
+}
+.contact h2{
+    color: contact;
+    margin-bottom: 20px;
+}
+.list-contact{
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+}
+.list-contact span{
+    color: #4d6d45;
+}
+/* footer */
+.footer{
+    background-color: #384c33;
+}
+.footer ul{
+    margin: 0;
+    padding-left: 0;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    color: white;
+    padding: 18px 0;
+    margin: 0 15px;
+    transition: .5s;
+}
+.footer ul li a:hover{
+    color: rgb(18, 188, 240);
+}
+.footer-black{
+    padding: 5px 0;
+    background-color: black;
+    color: #4b504b;
+}
